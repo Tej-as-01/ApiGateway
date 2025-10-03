@@ -33,7 +33,7 @@ public class SecurityConfig {
 public ReactiveUserDetailsService userDetailsService()
 {
 	var admin=User.withDefaultPasswordEncoder()
-				  .username("Prakash")
+				  .username("Admin")
 				  .password("admin")
 				  .roles("ADMIN")
 				  .build();
