@@ -18,8 +18,5 @@ public class FallbackController {
 	{
 		return Mono.just("Order service is not available. Try again later");
 	}
-	
-	
-	
 
 }
