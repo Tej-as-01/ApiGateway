@@ -15,7 +15,7 @@ public class FallbackController {
 		return Mono.just("Product service is not available. Try again later");
 	}
 	
-	// Fallback response when Product Service is unavailable
+	// Fallback response when Order Service is unavailable
 	@GetMapping("/fallback/order")
 	public Mono<String> orderServiceFallback()
 	{
